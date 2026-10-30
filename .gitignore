@@ -1,0 +1,34 @@
+# ==============================
+# M2 build outputs
+# ==============================
+balance_car_m2/src/*.o
+balance_car_m2/car_web
+
+# ==============================
+# STM32 / Keil build outputs
+# ==============================
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.map
+*.lst
+
+# Keil generated output directory
+balance_car_stm32/MDK-ARM/balance_car_stm32/
+
+# Build logs
+*.build_log.htm
+
+# Keil user settings and logs
+*.uvguix.*
+*.log
+
+# VS Code local settings
+.vscode/
+
+# Backup files
+*.bak
+# Backup files
+*.bak
