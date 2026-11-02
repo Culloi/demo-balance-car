@@ -117,4 +117,4 @@ Tune the parameters in this order: **upright loop → speed loop → turning loo
 - After changing the STM32 firmware, rebuild it and flash it again using ST-Link.
 
 ## Report an Issue
-If you encounter any problems, please post a technical support request on the official Quectel forum. Our support team will be happy to help. Issues and Pull Requests to improve this project are also welcome.
+If you encounter any issues during use, please submit technical inquiries on the [Quectel Official Forum](https://forumschinese.quectel.com/c/quectel-pi/58). Our technical support team will respond promptly. Issues and Pull Requests are welcome to help improve this project.
