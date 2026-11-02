@@ -117,4 +117,4 @@ Web 页面通过 HTTP 将控制指令发送至 M2，M2 再通过 UART 将目标�
 - 修改 STM32 程序后，需要重新编译并通过 ST-Link 烧录。
 
 ## 报告问题
-如在使用过程中遇到问题，欢迎在移远官方论坛提交技术咨询，我们的技术支持团队将及时为您解答。 欢迎提交Issue和Pull Request来改进此项目。
+如在使用过程中遇到问题，欢迎在[移远官方论坛](https://forumschinese.quectel.com/c/quectel-pi/58)提交技术咨询，我们的技术支持团队将及时为您解答。 欢迎提交Issue和Pull Request来改进此项目。
