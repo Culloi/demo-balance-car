@@ -14,7 +14,6 @@ STM32 负责姿态检测、电机驱动及平衡控制，Quectel Pi M2 负责 We
 - M2 与 STM32 UART 通信
 - Web 页面远程控制
 - 支持前进、后退、停止及左右转向
-- 支持目标速度和转向角速度控制
 
 ## 硬件组成
 
@@ -30,7 +29,7 @@ STM32 负责姿态检测、电机驱动及平衡控制，Quectel Pi M2 负责 We
 ## 项目结构
 
 ```text
-demo_balance_car/
+demo-balance-car/
 ├── balance_car_m2/                    # Quectel Pi M2 端程序
 │   ├── include/
 │   │   ├── car_control.h              # 运动目标与控制接口
@@ -39,9 +38,7 @@ demo_balance_car/
 │   │   ├── car_web.c                  # 内嵌网页、HTTP 接口与服务入口
 │   │   ├── car_control.c              # 速度、转向和停车指令封装
 │   │   └── uart.c                     # Linux 串口配置与控制帧发送
-│   ├── Makefile                       # M2 端构建规则
-│   └── PROJECT.md                     # M2 端开发阶段记录
-│
+│   └── Makefile                       # M2 端构建规则
 ├── balance_car_stm32/                 # STM32 实时控制程序
 │   ├── Core/
 │   │   ├── Inc/                      # 控制模块及外设接口头文件
@@ -66,7 +63,8 @@ demo_balance_car/
 │   └── .mxproject                     # STM32CubeMX 生成记录
 │
 ├── .gitignore
-└── README.md
+├── README.md
+└── README_zh.md
 ```
 
 ## 快速运行

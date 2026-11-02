@@ -14,7 +14,6 @@ STM32 handles attitude sensing, motor drive, and balance control. Quectel Pi M2 
 - UART communication between M2 and STM32
 - Remote control through a Web page
 - Forward, reverse, stop, left turn, and right turn
-- Target speed and yaw-rate control
 
 ## Hardware
 
@@ -30,7 +29,7 @@ STM32 handles attitude sensing, motor drive, and balance control. Quectel Pi M2 
 ## Project Structure
 
 ```text
-demo_balance_car/
+demo-balance-car/
 ├── balance_car_m2/                    # Quectel Pi M2 application
 │   ├── include/
 │   │   ├── car_control.h              # Motion targets and control interface
@@ -39,9 +38,7 @@ demo_balance_car/
 │   │   ├── car_web.c                  # Embedded Web page, HTTP API, and server entry point
 │   │   ├── car_control.c              # Speed, turning, and stop command handling
 │   │   └── uart.c                     # Linux serial configuration and control frame transmission
-│   ├── Makefile                       # M2 build rules
-│   └── PROJECT.md                     # M2 development-stage notes
-│
+│   └── Makefile                       # M2 build rules
 ├── balance_car_stm32/                 # STM32 real-time control firmware
 │   ├── Core/
 │   │   ├── Inc/                      # Control module and peripheral interface headers
