@@ -3,7 +3,7 @@
 A two-wheel self-balancing car demo built with **Quectel Pi M2 and STM32**.
 
 STM32 handles attitude sensing, motor drive, and balance control. Quectel Pi M2 provides Web control and UART communication. With a phone connected to the same Wi-Fi network as the M2, you can open the control page in a browser to drive the car forward, backward, and around turns.
-
+![Two-Wheel Self-Balancing Car](Car.png)
 
 ## Features
 
